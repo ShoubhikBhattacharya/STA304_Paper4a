@@ -14,4 +14,4 @@ Abstract: A family’s future health and wellness largely depends on the well-be
   provide a broader context of the overall health and well-being of the people in
   Turkey.
   
-  The repository contains three folders: inputs, outputs, and scripts.
+  The repository contains three folders: inputs and scripts folders, the paper.rmd file and paper.pdf file (final paper)
