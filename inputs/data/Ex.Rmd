@@ -1,0 +1,28 @@
+---
+title: "ex"
+author: "Shoubhik Bhattacharya"
+date: "31/03/2022"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+data <- read_csv("Book5.csv")
+data
+```
+
+```{r}
+df <- data %>% 
+  pivot_longer(HF:DK, names_to = "measure",
+               values_to = "score")
+df
+```
+
+```{r}
+plot1 <- ggplot(df, aes(x = Education, y = score, fill = measure)) + geom_col(position = "dodge")
+plot1
+```
+
